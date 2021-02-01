@@ -45,4 +45,7 @@
       	</div>
 
 	</body>
+	<?php
+	echo "open ssl ligado";
+var_dump(extension_loaded('openssl')); ?>
 </html>
